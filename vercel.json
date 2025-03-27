@@ -5,11 +5,5 @@
       "use": "@vercel/node"
     }
   ],
-  "installCommand": "npm install --legacy-peer-deps",
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "hooks": {
-    "build": "npm install --legacy-peer-deps && npm run build"
-  }
+  "installCommand": "npm install --legacy-peer-deps"
 }
