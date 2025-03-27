@@ -13,6 +13,7 @@
     "demo"
   ],
   "scripts": {
+    "build": "npm install --legacy-peer-deps && npm run build"
     "vercel-build": "npm install && npm run build",
     "precommit": "lint-staged --allow-empty && npm run prettier:write --workspaces --if-present",
     "prepush": "npm run test && npm run test:types",
