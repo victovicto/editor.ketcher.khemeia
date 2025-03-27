@@ -13,7 +13,6 @@
     "demo"
   ],
   "scripts": {
-    "postinstall": "husky install",
     "precommit": "lint-staged --allow-empty && npm run prettier:write --workspaces --if-present",
     "prepush": "npm run test && npm run test:types",
     "build": "npm run build:packages && npm run build:example",
